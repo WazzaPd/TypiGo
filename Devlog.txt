@@ -1,0 +1,25 @@
+ ______   ______   __   __   __       ______   _______     
+/_____/\ /_____/\ /_/\ /_/\ /_/\     /_____/\ /______/\    
+\:::_ \ \\::::_\/_\:\ \\ \ \\:\ \    \:::_ \ \\::::__\/__  
+ \:\ \ \ \\:\/___/\\:\ \\ \ \\:\ \    \:\ \ \ \\:\ /____/\ 
+  \:\ \ \ \\::___\/_\:\_/.:\ \\:\ \____\:\ \ \ \\:\\_  _\/ 
+   \:\/.:| |\:\____/\\ ..::/ / \:\/___/\\:\_\ \ \\:\_\ \ \ 
+    \____/_/ \_____\/ \___/_/   \_____\/ \_____\/ \_____\/ 
+==============================================================
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+firstLast -- TIMESTAMP
+--------------------------------------------------------------
+
+JosephW -- 2024-02-09 12:01
+- Overall Plan: Two versions: 1. Typing App that will be run on local machine without need for internet, 2. Typing app that is on the internet.
+    - 1. Generated Words will come from a downloaded database and any information will be stored on local machine.
+    - 2. Generated Words will come from an api and any infromation will be stored in the sever.
+    - 2. Use of Flask for backend is possiblility, else will host on netlify.
+- created index.html
+    - created general html structure: header, section for toggle settings, text area, and section for reset button.
+- created styles.css
+    - reset default styling
+    - styled textarea
+
